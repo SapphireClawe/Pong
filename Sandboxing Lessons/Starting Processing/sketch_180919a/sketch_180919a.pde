@@ -6,7 +6,7 @@ int BallMoveY;
 int BallX;
 int BallY;
 void setup() {
-  background (200,200,200);
+  background (97, 194,247);
   size (700, 700);
   BallMoveX = BallX + 1;
   BallMoveY = BallY + 1;
@@ -15,5 +15,5 @@ void setup() {
 } 
 
 void draw() {
-  ellipse (height/2, width/2, 10, 10);
+  ellipse (BallY, BallX, 10, 10);
 }
