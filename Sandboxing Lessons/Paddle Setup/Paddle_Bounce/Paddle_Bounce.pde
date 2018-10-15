@@ -8,7 +8,7 @@ int paddleHeightRatio = 10;
 int [] paddle = {0, 0};
 int [] player = new int [4];
 void setup () {
-  size(700, 700);
+  size(700, 800);
   ballStartX = width/2;
   ballStartY = height/2;
   ballX = ballStartX;
